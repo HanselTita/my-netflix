@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("./images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  color: white;
+  background-color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.signUp {
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+h2 {
+  font-size: 35px;
+  font-style: normal;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  font-size: 25px;
 }
+
+.signupBox {
+  text-indent: 10px;
+  font-size: 18px;
+  width: 600px;
+  height: 65px;
+  border: none;
+}
+
+#startBtn {
+  margin-left: -5px;
+  font-size: 35px;
+  width: 250px;
+  height: 70px;
+}
+
+.signIn {
+  margin-top: 3%;
+  font-size: 20px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 1180px;
+}
+
+
