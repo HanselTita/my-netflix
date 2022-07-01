@@ -1,14 +1,10 @@
 import "./App.css"
-import SignUpComponent from "./components/SignUpComponent"
-import SignUpMenu from "./components/SignUpMenu"
-
+import HomePage from "./pages/HomePage"
 
 function App() {
   return (
     <div className="App">
-    
-      <SignUpMenu />
-      <SignUpComponent />
+      <HomePage />
     </div>
   )
 }

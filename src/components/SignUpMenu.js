@@ -1,10 +1,17 @@
 import React from "react"
+import logo from "../components/images/logo.png"
 
 const SignUpMenu = () => {
   return (
-    <div>
-      <img src="./images/logo.png" alt="logo" height="200" width="300" />
-      <button className="signIn">Sign In</button>
+    <div className="row">
+      <div className="column">
+        <img src={logo} alt="logo" height="150" width="300" />
+      </div>
+      <div className="column">
+        <button className="signIn" style={{ float: "right", marginRight: "5%" }}>
+          Sign In
+        </button>
+      </div>
     </div>
   )
 }

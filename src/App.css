@@ -1,8 +1,14 @@
-body {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
- 
+
+
+
+body, html {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./components/images/bg.png");
+   /* Center and scale the image nicely */
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: black;
 }
 
 button {
@@ -11,7 +17,7 @@ button {
 }
 
 .signUp {
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
 
@@ -26,10 +32,12 @@ h1 {
 h2 {
   font-size: 35px;
   font-style: normal;
+  text-align: center;
 }
 
 h3 {
   font-size: 25px;
+  text-align: center;
 }
 
 .signupBox {
@@ -53,7 +61,19 @@ h3 {
   width: 150px;
   height: 50px;
   border-radius: 5px;
-  margin-left: 1180px;
+}
+.bind {
+  display: flex;
+  flex-direction: row;
+  flex: 33.33%;
 }
 
+.row {
+  display: flex;
+}
 
+.column {
+  padding: 5;
+  flex: 50.33%;
+  
+}
